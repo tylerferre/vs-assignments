@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+.d1{
+    height: 110px;
+    background-color: #F5C6D6;
+    border-bottom: 5px solid white;
+}
+
+.d2{
+    height: 110px;
+    background-color: #EE2E84;
+    border-bottom: 5px solid white;
+}
+
+.d3{
+    height: 110px;
+    background-color: #EE2E84;
+    border-bottom: 5px solid white;
+}
+
+.d4{
+    height: 110px;
+    background-color: #EE2E84;
+    border-bottom: 5px solid white;
+}
+
+.d5{
+    height: 110px;
+    background-color: #EE2E84;
+    border-bottom: 5px solid white;
+}
+
+.d6{
+    height: 110px;
+    background-color: #85CFD8;
+    border-bottom: 5px solid white;
+}
+
+.d7{
+    height: 110px;
+    background-color: #85CFD8;
+    border-bottom: 5px solid white;
+}
+
+.d8{
+    height: 110px;
+    background-color: #8DC63F;
+    border-bottom: 5px solid white;
+}
+
+.d9{
+    height: 110px;
+    background-color: #E76E34;
+}
+
+@media only screen and (min-width: 768px){
+
+    * {
+        box-sizing: border-box;
+        font-size: 0px;
+    }
+    
+
+    .d1{
+        height: 245px;
+        background-color: #F5C6D6;
+        border: 5px solid white;
+    }
+    
+    .d2{
+        height: 245px;
+        width: 25%;
+        background-color: #EE2E84;
+        border: 5px solid white;
+        display: inline-block;
+    }
+    
+    .d3{
+        height: 245px;
+        width: 25%;
+        background-color: #EE2E84;
+        border: 5px solid white;
+        display: inline-block;
+    }
+    
+    .d4{
+        height: 245px;
+        width: 25%;
+        background-color: #EE2E84;
+        border: 5px solid white;
+        display: inline-block;
+    }
+    
+    .d5{
+        height: 245px;
+        width: 25%;
+        background-color: #EE2E84;
+        border: 5px solid white;
+        display: inline-block;
+    }
+
+    .d6{
+        height: 245px;
+        width: 50%;
+        background-color: #85CFD8;
+        border: 5px solid white;
+        display: inline-block;
+    }
+    
+    .d7{
+        height: 245px;
+        width: 50%;
+        background-color: #85CFD8;
+        border: 5px solid white;
+        display: inline-block;
+    }
+
+    .d8{
+        height: 245px;
+        width: 75%;
+        background-color: #8DC63F;
+        border: 5px solid white;
+        display: inline-block;
+    }
+
+    .d9{
+        height: 245px;
+        width: 25%;
+        background-color: #E76E34;
+        border: 5px solid white;
+        display: inline-block;
+    }
+
+}

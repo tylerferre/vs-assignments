@@ -1,0 +1,23 @@
+.but1{
+    background-color: aqua;
+}
+
+.but2{
+    background-color: rgb(29, 255, 29);
+}
+
+.but3{
+    background-color: red;
+}
+
+.but4{
+    background-color: rgb(247, 0, 255);
+}
+
+button:hover{
+    background-color: white;
+}
+
+body{
+    background-color: black;
+}

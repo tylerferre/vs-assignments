@@ -1,0 +1,40 @@
+body {
+    background-color: aqua;
+}
+
+header {
+    display: inline-block;
+     font-style: bold;
+      color:blue
+}
+
+.water {
+    color:white; background-color: blue; display: padding 15px;
+}
+
+.myFavThingsTitle{
+        display:inline-block;
+        padding:5px;
+        border-width:3px;
+        border-bottom:solid black
+    }
+
+.headbutt{
+    width: 25px;
+}
+.coke{
+    color:white; background-color: rgb(39, 19, 0); display: padding 15px;
+}
+.inputDiv{
+    margin:auto;
+    display:inline-block;
+    padding:5px;
+    border-width:3px;
+    border: solid black;
+    background-color: rgb(236, 0, 0);
+    color:aliceblue;
+    font-size: 25px;
+    padding: 5px;
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
