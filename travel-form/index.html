@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Byler's Galactic Airlines</h1>
+
+    <div id="nameDiv">
+        <form name="myForm">
+            <p>Name:</p>
+            <input type="text" name="firstName" placeholder="First Name" required>
+            <input type="text" name="lastName" placeholder="Last Name" required>
+
+            <p>Age:</p>
+            <input type="number" name="age" placeholder="Age" required>
+
+            <p>Gender:</p>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Felame
+
+            <p>Diet Restrictions (All that Apply):</p>
+            <input type="checkbox" name="food" value=" Vegetarian">Vegetarian
+            <input type="checkbox" name="food" value=" Gluten Free">Gluten Free
+            <input type="checkbox" name="food" value=" Dairy Free">Dairy Free
+            <input type="checkbox" name="food" value=" None">None
+
+            <p>Destination:</p>
+            <select name="place" required>
+                <option value="Tatooine">Tatooine</option>
+                <option value="Naboo">Naboo</option>
+                <option value="Kashyyyk">Kashyyyk</option>
+                <option value="Corusant">Corusant</option>
+            </select>
+
+            <p></p>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

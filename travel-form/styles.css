@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    background-image: url("https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+#nameDiv{
+    background-color: grey;
+    display: flex;
+    
+    margin:6% 20% 0 20%;
+    padding:5%;
+    border:2px solid aqua;
+}
+
+button{
+    background-color:aqua ;
+}
+
+button:hover{
+    background-color: rgb(16, 214, 214);
+}
+
+p{
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
