@@ -1,0 +1,102 @@
+body{
+    background-color: black
+}
+
+header{
+    text-align: center;
+    height: 100px;
+    font-size: 40px;
+    margin:50px 150px;
+    background-color: deeppink;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    -webkit-text-stroke: 2px black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#addDiv{
+    text-align: center;
+    height: 100px;
+    font-size: 30px;
+    margin:50px 200px;
+    background-color: cyan;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    -webkit-text-stroke: 1.5px black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#subDiv{
+    text-align: center;
+    height: 100px;
+    font-size: 30px;
+    margin:50px 200px;
+    background-color:blueviolet;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    -webkit-text-stroke: 1.5px black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#mulDiv{
+    text-align: center;
+    height: 100px;
+    font-size: 30px;
+    margin:50px 200px;
+    background-color:lime;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    -webkit-text-stroke: 1.5px black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#addResult{
+    text-align: center;
+    height: 22px;
+    margin: -35px 47% 0px 47%;
+    background-color: cyan;
+}
+
+#subResult{
+    text-align: center;
+    height: 22px;
+    margin: -35px 47% 0px 47%;
+    background-color: blueviolet;
+}
+
+#mulResult{
+    text-align: center;
+    height: 22px;
+    margin: -35px 47% 0px 47%;
+    background-color: lime;
+}
+
+#reset{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#reset button{
+    background-color: deeppink;
+    font-size: 25px;
+    border-radius: 20px;
+    -webkit-text-stroke: 1.5px black;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#reset button:hover{
+    background-color: rgb(199, 15, 113);
+}
