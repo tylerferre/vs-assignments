@@ -14,8 +14,8 @@ addForm.addEventListener("submit", (e, num1, num2) =>{
 
     addForm.firstAdd.value = ""
     addForm.secondAdd.value = ""
-    
-    const newNum = document.createElement("h1")
+
+    const newNum = document.getElementById("addResult")
     newNum.style.fontSize = "20px"
     newNum.textContent = result
     document.getElementById("addResult").append(newNum)
@@ -35,7 +35,7 @@ subForm.addEventListener("submit", (e, num1, num2) =>{
     subForm.firstSub.value = ""
     subForm.secondSub.value = ""
     
-    const newNum = document.createElement("h1")
+    const newNum = document.getElementById("subResult")
     newNum.style.fontSize = "20px"
     newNum.textContent = result
     document.getElementById("subResult").append(newNum)
@@ -55,7 +55,7 @@ mulForm.addEventListener("submit", (e, num1, num2) =>{
     mulForm.firstMul.value = ""
     mulForm.secondMul.value = ""
     
-    const newNum = document.createElement("h1")
+    const newNum = document.getElementById("mulResult")
     newNum.style.fontSize = "20px"
     newNum.textContent = result
     document.getElementById("mulResult").append(newNum)
