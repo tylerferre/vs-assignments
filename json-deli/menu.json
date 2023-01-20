@@ -1,0 +1,66 @@
+{
+    "menu": [
+        {
+            "appitizers": [
+                    {
+                    "name": "mozzarella sticks",
+                    "ingredients": ["bread crums", "mozzarella cheese"],
+                    "description": "rich mozzarella battered and deep fryed"
+                },
+                {
+                    "name": "salad",
+                    "ingredients": ["lettuce", "tomatos", "carrots", "ranch"],
+                    "description": "crisp lettuce mixed with carrots and diced tomatos, drizzled with ranch dressing"
+                }
+            ],
+            "cold sandwiches": [
+                {
+                    "name": "blt",
+                    "ingredients": ["bacon", "lettuce", "tomatos", "white bread"],
+                    "description": "bacon, lettuce, and tomatos, stacked on white bread"
+                },
+                {
+                    "name": "club sandwich",
+                    "ingredients": ["ham", "turkey", "provalone cheese", "lettuce", "tomatos", "mayo", "mustard"],
+                    "description": "white bread with mayo and mustard spread on each side, stacked with ham, turkey, provalone, lettcue, tomatos"
+                }
+            ],
+            "hot sandwiches": [
+                {
+                    "name": "grilled cheese",
+                    "ingredients": ["sour dough bread", "cheddar cheese", "munster cheese", "provalone cheese"],
+                    "description": "three cheese's stacked between buttered and grilled sour dough bread"
+                },
+                {
+                    "name": "ruben sandwich",
+                    "ingredients": ["rye bread", "corned beef", "thousand island dressing", "swiss cheese", "sauerkraut"],
+                    "description": "thousand island dressing spread on two slices of grilled rye bread, with corned beef, swiss cheese, and sauerkraut"
+                }
+            ],
+            "desserts": [
+                {
+                    "nsme": "chocolate covered strawberries",
+                    "ingredients": ["strawberries", "chocolate"],
+                    "description": "ripe strawberries dipped in chocolate fondue and chilled"
+                },
+                {
+                    "name": "ice cream sunday",
+                    "ingredients": ["vanilla ice cream", "peanuts", "chocolate syrup", "cherry"],
+                    "description": "three scoops of vanilla ice cream topped with chocolate syrup, peanuts, and a cherry on top"
+                }
+            ],
+            "drinks": [
+                {
+                    "name": "lemonade",
+                    "ingredients": ["water", "lemon juice", "sugar", "lemon slice"],
+                    "description": "fresh squeezed lemonade rimmed with suagr and a lemon slice"
+                },
+                {
+                    "name": "chocolate shake",
+                    "ingredients": ["chocolate ice cream", "milk", "chocolate syrup", "whipped cream", "cherry"],
+                    "description": "chocolate ice cream and milk blended togather and topped with chocolate syrup, whipped cream, and a cherry on top"
+                }
+            ]
+        }
+    ]
+}
