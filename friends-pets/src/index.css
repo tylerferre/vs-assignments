@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  background-color: rgb(15, 14, 15);
+  color: white;
+}
+
+.App{
+    display: flex;
+    margin: 50px auto;
+    width: fit-content;
+}
+
+.nav{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color:#156a6d ;
+  height: 60px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.friend{
+  display: flex;
+  flex-direction: column;
+  line-height: 10px;
+  border: 2px solid #156a6d;
+  padding: 10px;
+  padding-left: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #1c1c1d;
+}
+
+.friend h3{
+  margin: 15px 0;
+}
+
+.name{
+  color: #156a6d;
+}
+
+.age{
+  line-height: 1px;
+  font-weight: 300;
+
+}
+
+.pets{
+  text-decoration: underline 1px;
+  font-weight: 300;
+}
+
+.petBreed{
+  font-size: smaller;
+  font-weight: 300;
+}
+
+.pn{
+  line-height: 13px;
+}
