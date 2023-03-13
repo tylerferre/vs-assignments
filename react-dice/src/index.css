@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  background-color: rgb(20, 20, 20);
+}
+
+.App{
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+
+.die{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.die h1{
+  padding: 10px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  background-color: white;
+  height: 30px;
+  border-radius: 5px;
+}

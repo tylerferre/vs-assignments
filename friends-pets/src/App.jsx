@@ -16,14 +16,14 @@ function App() {
     )
   })
 
-  const pets = data.map(pet => {
-    return(
-      <Pet
-        key = {pet.id}
-        pet = {pet}
-      />
-    )
-  })
+  // const pets = data.map(pet => {
+  //   return(
+  //     <Pet
+  //       key = {pet.id}
+  //       pet = {pet}
+  //     />
+  //   )
+  // })
 
 return(
     <div className='list'>
