@@ -14,10 +14,10 @@ useEffect(() =>{
   axios.get('https://www.colr.org/json/schemes/random/7?scheme_size_limit=>5')
   .then(res => {
     setColor(res.data.matching_schemes[randomNum])
-    //console.log(res.data.matching_schemes[randomNum])
+    //console.log(res.data)
   })
   .catch(err => console.log(err))
-}, [[color]])
+}, [randomNum])
 
 
   return (
