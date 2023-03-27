@@ -23,7 +23,7 @@ useEffect(() =>{
   return (
     <div className="App">
       <div className='color' style={{backgroundColor: `#${color}`}}></div>
-      <button onClick={randomize}>Click</button>
+      <button onClick={randomize} style={{borderColor: `#${color}`}}>Click</button>
     </div>
   )
 }
