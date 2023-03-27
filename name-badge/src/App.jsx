@@ -132,12 +132,12 @@ const handleSubmit = (event) =>{
       {infoArray.length > 1 && <div className='badge'>
         <h1 className='title'>Badge:</h1>
         <div className='info'>
-          <h2 className="bName">Name: {map[0]} {map[1]}</h2>
-          <h2 className="bPhone">Phone: {map[4]}</h2>
-          <h2 className="bBirth">Place of birth: {map[3]}</h2>
-          <h2 className="bFood">Favorite food: {map[5]}</h2>
-          <h2 className="bEmail">Email: {map[2]}</h2>
-          <p className="bAbout">{map[6]}</p>
+          <h2 className="bName">Name: {infoArray[0]} {infoArray[1]}</h2>
+          <h2 className="bPhone">Phone: {infoArray[4]}</h2>
+          <h2 className="bBirth">Place of birth: {infoArray[3]}</h2>
+          <h2 className="bFood">Favorite food: {infoArray[5]}</h2>
+          <h2 className="bEmail">Email: {infoArray[2]}</h2>
+          <p className="bAbout">{infoArray[6]}</p>
         </div>
       </div>}
     </div>
