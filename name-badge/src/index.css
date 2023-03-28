@@ -8,6 +8,10 @@ body{
   font-family: 'Roboto Mono', monospace;
 }
 
+body::-webkit-scrollbar{
+  display: none;
+}
+
 .form{
   background-color: #ffffff;
   margin-top: 50px;
