@@ -1,0 +1,78 @@
+body{
+  margin: 0;
+  background-color: rgb(31, 31, 31);
+  cursor: default;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+  cursor: pointer;
+}
+
+.App{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainBox{
+  display: flex;
+}
+
+.title{
+  font-weight: 300;
+  color: #adadad;
+}
+
+.colorBox{
+  border: 1px solid #adadad;
+  height: 300px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.color{
+  width: 280px;
+  height: 140px;
+  border: 1px solid #adadad;
+  display: flex;
+  border-radius: 10px;
+}
+
+.colorCode{
+  margin: 0 35px;
+  color: #adadad;
+  line-height: 18px;
+  cursor:text;
+  font-size: 13px;
+}
+
+.optionBox{
+  border: 1px solid #adadad;
+  height: 300px;
+  width: 350px;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.optionBox span{
+  margin-right: 30px;
+}
+
+.colorInput{
+  width: 80px;
+}
+
+.options{
+  display: flex;
+  justify-content: space-between;
+}
+
+h2{
+  text-decoration: underline;
+}
