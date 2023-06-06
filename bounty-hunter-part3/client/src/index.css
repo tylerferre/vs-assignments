@@ -1,0 +1,138 @@
+body{
+  cursor: default;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-family: 'Bungee', cursive;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Lora', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  cursor: default;
+  background-image: url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+button{
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+  border-radius: 5px;
+  font-family: 'orbitron';
+}
+
+select{
+  cursor: pointer;
+}
+
+h1{
+  color: #9a0101;
+  text-shadow: 2px 2px #000000;
+}
+
+.title{
+  background-color: #292929;
+  margin: 0;
+  height: 50px;
+  border-bottom: 1px solid grey;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bountiesContainer{
+  margin: 20px;
+}
+
+.bounties{
+  border: 1px solid grey;
+  margin: 20px 20%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 160px;
+  padding: 10px 30px;
+  line-height: 10px;
+  border-radius: 10px;
+  background-color: #292929;
+}
+
+.addBountyForm{
+  margin-top: 30px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #292929;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+
+.addBountyForm input{
+  margin: 5px;
+  height: 25px;
+  border-radius: 5px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.addBountyForm select{
+  margin: 5px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.checkbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+
+.checkbox input{
+  cursor: pointer;
+}
+
+.addBtn{
+  margin: 5px;
+  background: linear-gradient( #02c809f9, #016f0bf9);
+}
+
+input:focus{
+  background-color: #b70505;
+  color: white;
+}
+
+select:focus{
+  background-color: #b70505;
+  color: white;
+}
+
+.deleteBtn{
+  background: linear-gradient( #ff0000, #9a0101);
+}
+
+.editBtn{
+  background: linear-gradient(rgb(47, 68, 255), rgb(0, 0, 161));
+}
+
+.editForm input{
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.editForm span{
+  display: flex;
+  justify-content: left;
+}
+
+.editForm label{
+  margin-right: 5px;
+}
