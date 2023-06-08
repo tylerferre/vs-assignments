@@ -17,17 +17,25 @@ bountyRoutes.get('/', (req, res, next) =>{
     })
 })
 
-// bountyRoutes.get('/:bountyId', (req, res) =>{
-//     const bountyId = req.params.bountyId
-//     const foundBounty = bounties.find(item => item._id === bountyId)
-//     res.status(200).send(foundBounty)
-// })
+bountyRoutes.get('/:bountyId', (req, res, next) =>{
+    BountyModel.findOne({_id: req.params.bountyId}, (err, bounty)=>{
+        if(err){
+            res.status(500)
+            return next(err)
+        }
+        return res.status(200).send(bounty)
+    })
+})
 
-// bountyRoutes.get('/search/type', (req, res) =>{
-//     const type = req.query.type
-//     const filteredBounty = bounties.filter(item => item.type === type)
-//     res.status(200).send(filteredBounty)
-// })
+bountyRoutes.get('/search/type', (req, res, next) =>{
+    BountyModel.find({type: req.query.type}, (err, bounty)=>{
+        if(err){
+            res.status(500)
+            return next(err)
+        }
+        return res.status(200).send(bounty)
+    })
+})
 
 // POST Request
 
@@ -45,7 +53,7 @@ bountyRoutes.post('/', (req, res, next) =>{
 // DELETE Request
 
 bountyRoutes.delete('/:bountyId', (req, res, next) =>{
-    BountyModel.findOneAndDelete({_id: bountyId}, (err, deletedBounty)=>{
+    BountyModel.findOneAndDelete({_id: req.params.bountyId}, (err, deletedBounty)=>{
         if(err){
             res.status(500)
             return next(err)

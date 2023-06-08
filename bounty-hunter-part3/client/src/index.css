@@ -136,3 +136,23 @@ select:focus{
 .editForm label{
   margin-right: 5px;
 }
+
+.filterDiv{
+  text-align: center;
+  margin: 10px 0 -5px 0;
+}
+
+.filterTitle{
+  margin: 0;
+}
+
+.filter{
+  background-color: #292929;
+  color:#9a0101;
+  border-radius: 5px;
+}
+
+.filter:focus{
+  background-color: #292929;
+  color: #b70505;
+}
